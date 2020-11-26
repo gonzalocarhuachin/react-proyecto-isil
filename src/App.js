@@ -1,12 +1,17 @@
 import './App.css';
+import Banner from './Banner';
+import Envios from './Components/Envios';
+import Frase from './Frase';
+import Mensaje from './Mensaje';
 
 function App() {
   return (
-    <header id="main-header">
-      <div className="container">
-        <h1>ISIL Market</h1>
-      </div>    
-    </header>
+    <div>
+      <Banner />
+      <Mensaje />
+      <Envios />
+      <Frase />
+    </div>
   );
 }
 
